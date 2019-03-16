@@ -39,7 +39,7 @@ local function CreateBarrelItem(name, fluid, empty_barrel_item)
     local barrel_item = {
         type = "item",
         name = name,
-        localised_name = {"item-name.filled-barrel", {"fluid-name" .. fluid.name}},
+        localised_name = {"item-name.filled-barrel", {"fluid-name." .. fluid.name}},
         icons = GenerateBarrelItemIcons(fluid, empty_barrel_item),
         icon_size = 32,
         subgroup = "fill-barrel",
