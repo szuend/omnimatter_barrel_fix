@@ -57,6 +57,7 @@ end
 
 -- Omnifluids use fluid.icons, so merge them with the new icon.
 local function MergeOmniIconForBarrelRecipe(icon, fluid, shift)
+    -- TODO(szuend): This is still buggy for omnide-solution fluids.
     for _, icon_data in ipairs(fluid.icons) do
         local new_icon = util.table.deepcopy(icon_data)
         new_icon.scale = 0.5
