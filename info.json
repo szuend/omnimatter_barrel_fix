@@ -8,6 +8,6 @@
     "dependencies": ["base",
                      "?angelsrefining",
                      "?omnimatter",
-                     "?omnimatter_crystals"
+                     "?omnimatter_crystal"
                     ]
 }
